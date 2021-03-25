@@ -1,0 +1,327 @@
+* {
+  box-sizing: border-box;
+}
+html {
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+body {
+    font-family:Verdana;
+    color: black;
+}
+.fejlec {
+    background-color: yellow;
+    border: 25px solid transparent;
+    border-image: url(webkepek/borderbottonv3.png) 20 round;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    height: 10%;
+    text-align:center;
+    margin: auto;
+    clear:both;
+    position: fixed;
+    display: flex;
+    top: 0;
+}
+
+.kepfejlec {
+  margin-top: 5px;
+  width: 10%;
+  height: 115%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+.tartalom {
+    overflow:auto;
+    width: 1600px;
+    margin: auto;
+    padding: 16px;
+}
+
+.menu {
+  background-color: black;
+  overflow: hidden;
+  width: 1250px;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 650px;
+}
+
+.menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu a.active {
+  background-color: yellow;
+  color: black;
+}
+
+.fo {
+  margin-top: 100px;
+  float:left;
+  width:75%;
+  padding:0 20px;
+  min-height: 1750px;
+  height: auto;
+  border: 25px solid transparent;
+  border-image: url(webkepek/border.png) 20 round;
+  background-color: rgb(49, 49, 49);
+  color: white;;
+
+}
+.hirek-table{
+  margin: auto;
+  width:70%;
+}
+.quiz{
+  border: 2px solid #000000;
+  border-radius: 25px;
+  background: #272722;
+  padding: 20px; 
+  width: 200px;
+  text-align: left;
+  padding-right: 5px;
+  width:1100px;
+}
+.roundedborder_table{
+  border: 2px solid #000000;
+  border-radius: 25px;
+  background: #272722;
+  padding: 20px; 
+  width: 200px;
+  text-align: center;
+  width:1100px;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: yellow;
+  border: none;
+  border-radius: 15px;
+}
+.button:hover {background-color: goldenrod}
+
+.button:active {
+  background-color: gray;
+  transform: translateY(4px);
+}
+.roundedborder{
+  border: 2px solid #000000;
+  border-radius: 25px;
+  background: #272722;
+  padding: 20px; 
+  width: 200px;
+  text-align: center;
+  width:1100px;
+}
+.roundedborderv2{
+  border: 2px solid #000000;
+  border-radius: 25px;
+  background: #272722;
+  padding: 20px; 
+  width: 200px;
+  text-align: center;
+  width:400px;
+  float: right;
+}
+.roundedborderv3{
+  border: 2px solid #000000;
+  border-radius: 25px;
+  background: #272722;
+  padding: 20px; 
+  width: 200px;
+  text-align: left;
+  width:1100px;
+  float: right;
+}
+.roundedborderv4{
+  border: 2px solid #000000;
+  border-radius: 25px;
+  background: #272722;
+  padding: 20px; 
+  width: 200px;
+  text-align: center;
+  width:1100px;
+}
+.roundedborderv4 table
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+.roundedborder p{
+  background-color: red;
+  color: black;
+}
+.roundedborder b{
+  color: white;
+}
+.roundedborder h1{
+  color: white;
+}
+.roundedborder td{
+  border: 2px solid #000000;
+  border-radius: 25px;
+  
+}
+.gallery{
+  margin: 10px 50px;
+  margin: auto 0;
+}
+.gallery img{
+  transition: 0.5s;
+  padding: 15px;
+  width: 200px;
+}
+.gallery img:hover{
+  
+  transform:scale(1.2);
+}
+img{
+  
+  left: 100px; 
+}
+.centerimage{
+  margin: auto;
+  text-align: center;
+}
+.jobb {
+  margin-top: 100px;
+  float:right;
+  width:25%;
+  padding:15px;
+  text-align:center;
+  background-color: yellow;
+  color: black;
+  border: 25px solid transparent;
+  border-image: url(webkepek/border.png) 20 round;
+}
+.hirek {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse:separate;
+    border: 2px solid #000000;
+    background-color: #272722;
+    border-radius: 10px;
+    -moz-border-radius:6px;
+  }
+.hirek td, .hirek th {
+    border-left:solid black 1px;
+    border-top:solid black 1px;
+  }
+.hirek tr:first-child {
+    background-color: yellow;
+    border-top: none;
+    color: black;
+  }
+.hirek td:first-child, .hirek th:first-child {
+    border-left: none;
+    
+  }
+.hirek th:nth-child(1){
+    width: 20%;
+  }
+.hirek th:nth-child(3) {
+    width: 40%;
+  }
+.hirek th:nth-child(2) {
+    width: 40%;
+  }
+.hirek img{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.intro {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index:-1;
+  opacity: 0;
+  transition: opacity 0.50s ease-in-out;
+}
+.lablec {
+    background-color:yellow;
+    color: black;
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 25px solid transparent;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border-image: url(webkepek/borderbottonv3.png) 20 round;
+}
+.lablec-table{
+  margin: auto;
+  width: 1000px;
+  font-size: 12px;
+}
+.lablec-table td{
+  text-align: left;
+}
+
+.lablec a:link {
+  color: black;
+}
+.lablec a:visited {
+  color: black;
+}
+.lablec a:hover {
+  color: black;
+}
+.lablec a:active {
+  color: black;
+}
+
+a:visited {
+  color: white;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: black;
+}
+@media only screen and (max-width:500px) {
+  .bal, .fo, .jobb {
+    width:100%;
+  }
+}
